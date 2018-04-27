@@ -17,16 +17,15 @@ body {
   position: relative;
   font-family: 'Source Sans Pro';
   font-weight: 300;
-}
-
-.overlay {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-color: #cd9557;
-  opacity: 0.75;
+  background: url(../img/office-outside.jpg) no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100%;
+  background-color: #138da2;
+  opacity: 1;
   z-index: -1;
 }
+
+.overlay {}
 
 .masthead {
   position: relative;
@@ -42,7 +41,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 46, 102, 0.8);
+  background-color: rgba(0, 46, 102, 0.96);
   transform: skewY(4deg);
   transform-origin: bottom right;
 }
@@ -146,8 +145,8 @@ body {
 }
 
 .btn-secondary {
-  background-color: #cd9557;
-  border-color: #cd9557;
+  background-color: #138da2;
+  border-color: #138da2;
 }
 
 .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
